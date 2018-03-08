@@ -1,0 +1,50 @@
+#navBar {
+  color: white;
+  background-color: black;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.mainName {
+  font-size: 122px;
+}
+
+#professionLine {
+}
+
+#logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+a {
+  padding: 0 10px 0 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+/*
+  specifying visited overrides class settings, but excluding a:visited and
+  sticking to classes prioritizes class settings
+*/
+a:hover {
+  color: #A4966A;
+}
+
+.activeNavLink {
+  color: #A4966A;
+}
+
+.inactiveNavLink {
+  color: white;
+}
